@@ -2,6 +2,8 @@
 @rem   Check wheather an argument is given
 @rem   to the script
 @rem
+@rem   Compare with check_empty_variable_2.bat
+@rem
 
 
 
