@@ -1,8 +1,8 @@
 @rem
-@rem   Check wheather an argument is given
+@rem   Check whether an argument is given
 @rem   to the script
 @rem
-@rem   Compare with check_empty_variable_2.bat
+@rem   Compare with neq_check-empty-variable_2.bat
 @rem
 
 
