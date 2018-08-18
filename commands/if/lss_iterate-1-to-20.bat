@@ -1,5 +1,5 @@
 @rem
-@rem Compare with -> iterate_1_to_10.bat
+@rem Compare with -> ..\for\l_iterate-1-to-10.bat
 @rem
 
 @set cnt=0
@@ -10,6 +10,3 @@
   @echo %cnt%
 
   @if %cnt% lss 20 goto loop
-
-
-
