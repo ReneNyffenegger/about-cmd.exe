@@ -8,7 +8,6 @@
   @echo E = %%E
 )
 
-
 @for /f "tokens=3*" %%A in ("%text%") do @(
   @echo A = %%A
   @echo B = %%B
@@ -24,7 +23,6 @@
   @echo D = %%D
   @echo E = %%E
 )
-
 
 @for /f "tokens=1-4,*" %%A in ("%text%") do @(
   @echo A = %%A
