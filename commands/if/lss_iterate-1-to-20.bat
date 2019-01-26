@@ -1,7 +1,3 @@
-@rem
-@rem Compare with -> ..\for\l_iterate-1-to-10.bat
-@rem
-
 @set cnt=0
 
 :loop

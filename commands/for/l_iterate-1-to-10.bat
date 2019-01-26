@@ -1,7 +1,7 @@
-@rem
-@rem Compare with -> ..\if\lss_iterate-1-to-20.bat
-@rem
+@set startValue=5
+@set increment=3
+@set maxValue=25
 
-@for /L %%i in (1,1,10) do @(
-  echo %%i
+@for /L %%i in (%startValue%, %increment%, %maxValue%) do @(
+  echo i = %%i
 )
