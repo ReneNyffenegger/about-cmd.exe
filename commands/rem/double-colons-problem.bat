@@ -9,5 +9,5 @@ if exist double-colons-problem.bat (
 
    echo The file double-colons-problem.bat was not found
 
-   :: This «comment» causes the error «) was unexpected at this time."
+   :: This «comment» causes the error «) was unexpected at this time.»
 )
