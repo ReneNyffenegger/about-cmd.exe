@@ -1,17 +1,10 @@
-@rem
-@rem   Check whether an argument is given
-@rem   to the script
-@rem
-@rem   Compare with neq_check-empty-variable_2.bat
-@rem
+@echo off
 
+if [%1] neq [] goto ok
 
+echo you need to pass an argument
 
-@if [%1] neq [] goto ok
-
-@echo you need to pass an argument
-
-@exit /b
+exit /b
 
 :ok
 

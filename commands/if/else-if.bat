@@ -1,9 +1,24 @@
-@if exist does_not_exist.bat (
-  echo Unexpected does_not_exist.bat exists!
-) else if exist nothing.bat (
-  echo Unexpected nothing.bat.!
-) else if exist else-if.bat (
-  echo This was expected: if_else_if_else.bat exists
+@echo off
+
+if %1 == foo (
+
+   echo the first argument
+   echo is foo
+
+) else if %1 == bar (
+
+   echo the first argument
+   echo is bar
+
+) else if %1 == baz (
+
+   echo the first argument
+   echo is baz
+
 ) else (
-  echo None of these exists!:
+
+   echo The first argument
+   echo is neither foo nor
+   echo bar nor baz.
+
 )
