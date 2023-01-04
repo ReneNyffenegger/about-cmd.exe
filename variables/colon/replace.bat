@@ -3,7 +3,7 @@
 setlocal
 
 rem
-rem  Note the type
+rem  Note the typo
 rem
 set VAR=Hello wrold.
 
